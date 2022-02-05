@@ -1,0 +1,33 @@
+{
+    "name": "@dungeonz/root",
+    "version": "1.0.0",
+    "description": "Monorepo for Dungeonz.io",
+    "author": "Johnathan Fisher <team@waywardworlds.com> (https://waywardworlds.com)",
+    "license": "MIT",
+    "dependencies": {
+        "@craco/craco": "^6.4.3",
+        "@types/leaflet": "^1.7.9",
+        "@types/node": "^16.11.22",
+        "@types/react": "^17.0.39",
+        "@types/react-dom": "^17.0.11",
+        "@types/webpack-env": "^1.16.3",
+        "@typescript-eslint/eslint-plugin": "^5.10.2",
+        "@typescript-eslint/parser": "^5.10.2",
+        "eslint": "^7.19.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-react": "^7.27.1",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "leaflet": "^1.7.1",
+        "phaser": "^3.55.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-leaflet": "^3.2.5",
+        "react-scripts": "^4.0.3",
+        "typescript": "^4.5.5",
+        "webpack-env": "^0.8.0"
+    },
+    "workspaces": [
+        "./clients/game"
+    ]
+}
